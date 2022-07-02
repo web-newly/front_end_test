@@ -1,0 +1,46 @@
+
+// @colors: darkslateblue mediumorchid seagreen steelblue;
+
+/* // loop definition
+.backgrounds(@list, @i: 1) when (@i <= length(@list)) {
+  // extract the right color from the list
+  @color: extract(@list, @i);
+  
+  // apply the background to the selector
+  .@{color} {
+    background: @color;
+  }
+  
+  // recursive call for the next color
+  .backgrounds(@list, @i + 1);
+}
+
+// application
+.backgrounds(@colors); */
+
+.delay1(@i:1) when (@i <= 4){
+    @time:(@i - 1)*0.4+0.1s;
+    .circlebox:nth-of-type(1) p:nth-of-type(@{i}) {
+        animation-delay: @time
+    }
+    .delay1(@i+1);
+}
+.delay1();
+.delay2(@i:1) when (@i <= 4){
+    @time:(@i - 1)*0.4+0.3s;
+    .circlebox:nth-of-type(2) p:nth-of-type(@{i}) {
+        animation-delay: @time
+    }
+    .delay2(@i+1);
+}
+.delay2();
+
+// styles
+/* body {
+  display: flex;
+}
+
+div {
+  flex: 1 1 auto;
+  height: 100vh;
+} */

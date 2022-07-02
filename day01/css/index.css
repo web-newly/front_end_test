@@ -1,0 +1,49 @@
+/* // loop definition
+.backgrounds(@list, @i: 1) when (@i <= length(@list)) {
+  // extract the right color from the list
+  @color: extract(@list, @i);
+  
+  // apply the background to the selector
+  .@{color} {
+    background: @color;
+  }
+  
+  // recursive call for the next color
+  .backgrounds(@list, @i + 1);
+}
+
+// application
+.backgrounds(@colors); */
+.circlebox:nth-of-type(1) p:nth-of-type(1) {
+  animation-delay: 0.1s;
+}
+.circlebox:nth-of-type(1) p:nth-of-type(2) {
+  animation-delay: 0.5s;
+}
+.circlebox:nth-of-type(1) p:nth-of-type(3) {
+  animation-delay: 0.9s;
+}
+.circlebox:nth-of-type(1) p:nth-of-type(4) {
+  animation-delay: 1.3s;
+}
+.circlebox:nth-of-type(2) p:nth-of-type(1) {
+  animation-delay: 0.3s;
+}
+.circlebox:nth-of-type(2) p:nth-of-type(2) {
+  animation-delay: 0.7s;
+}
+.circlebox:nth-of-type(2) p:nth-of-type(3) {
+  animation-delay: 1.1s;
+}
+.circlebox:nth-of-type(2) p:nth-of-type(4) {
+  animation-delay: 1.5s;
+}
+/* body {
+  display: flex;
+}
+
+div {
+  flex: 1 1 auto;
+  height: 100vh;
+} */
+/*# sourceMappingURL=./index.css.map */
