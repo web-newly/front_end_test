@@ -1,0 +1,100 @@
+.wrapper #header .headerTop {
+  background-color: #eaeaea;
+  height: 30px;
+  overflow: hidden;
+}
+.wrapper #header .headerTop .headerTopMain {
+  width: 1200px;
+  margin: 0 auto;
+  line-height: 30px;
+}
+.wrapper #header .headerTop .headerTopMain::after {
+  clear: both;
+  display: table;
+  content: '';
+}
+.wrapper #header .headerTop .headerTopMain .left {
+  float: left;
+}
+.wrapper #header .headerTop .headerTopMain .left h5 {
+  float: left;
+}
+.wrapper #header .headerTop .headerTopMain .left p {
+  float: left;
+  font-size: 0;
+}
+.wrapper #header .headerTop .headerTopMain .left p a {
+  color: #6E6A69;
+  text-decoration: none;
+  font-size: 13px;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+.wrapper #header .headerTop .headerTopMain .left p a:first-child {
+  border-right: 1px solid #b3aeae;
+}
+.wrapper #header .headerTop .headerTopMain .right {
+  float: right;
+  font-size: 0;
+}
+.wrapper #header .headerTop .headerTopMain .right a {
+  color: #6E6A69;
+  text-decoration: none;
+  font-size: 13px;
+  border-right: 1px solid #b3aeae;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.wrapper #header .headerTop .headerTopMain .right a:last-child {
+  border-right: none;
+  padding-right: 0;
+}
+.wrapper #header .headerTop .headerTopMain .right a:first-child {
+  padding-left: 0;
+}
+.wrapper #header .headerBottom .headerBottomMain {
+  width: 1200px;
+  margin: 0px auto;
+}
+.wrapper #header .headerBottom .headerBottomMain::after {
+  clear: both;
+  display: table;
+  content: '';
+}
+.wrapper #header .headerBottom .headerBottomMain .logo {
+  float: left;
+}
+.wrapper #header .headerBottom .headerBottomMain .logo a img {
+  width: 175px;
+  height: 56px;
+  margin: 25px 45px;
+}
+.wrapper #header .headerBottom .headerBottomMain .search {
+  float: right;
+  margin-top: 35px;
+}
+.wrapper #header .headerBottom .headerBottomMain .search input[type="text"] {
+  float: left;
+  box-sizing: border-box;
+  width: 490px;
+  height: 32px;
+  padding: 0 4px;
+  border: 3px solid rgba(234, 74, 54, 0.5);
+  outline: none;
+}
+.wrapper #header .headerBottom .headerBottomMain .search input[type="text"]::-webkit-input-placeholder {
+  color: yellowgreen;
+}
+.wrapper #header .headerBottom .headerBottomMain .search input[type="text"]:focus {
+  border-color: #ea4a36;
+}
+.wrapper #header .headerBottom .headerBottomMain .search input[type="submit"] {
+  float: left;
+  width: 68px;
+  height: 32px;
+  background-color: #ea4a36;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+/*# sourceMappingURL=./test.css.map */
