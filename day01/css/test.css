@@ -97,4 +97,100 @@
   border: none;
   cursor: pointer;
 }
+.wrapper #navwrap {
+  border-bottom: 2px solid #e1251b;
+}
+.wrapper #navwrap .navwrapmain {
+  width: 1200px;
+  margin: 0 auto;
+  line-height: 50px;
+}
+.wrapper #navwrap .navwrapmain a {
+  margin: 0px 22px;
+  font-size: 16px;
+  color: #333;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+}
+.wrapper #navwrap .navwrapmain a:first-child {
+  width: 210px;
+  height: 50px;
+  background-color: #e1251b;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+}
+.wrapper #content {
+  border-top: 1px solid transparent;
+}
+.wrapper #content .contentMain {
+  width: 1200px;
+  margin: 15px auto 0px auto;
+}
+.wrapper #content .contentMain .navpath {
+  padding: 9px 15px 9px 0px;
+  font-size: 0px;
+}
+.wrapper #content .contentMain .navpath a {
+  font-size: 12px;
+  text-decoration: none;
+  color: #333;
+}
+.wrapper #content .contentMain .navpath i {
+  padding: 0px 5px;
+  font-size: 12px;
+}
+.wrapper #content .contentMain .center {
+  margin: 5px 0px 15px;
+}
+.wrapper #content .contentMain .center::after {
+  clear: both;
+  display: table;
+  content: '';
+}
+.wrapper #content .contentMain .center .left {
+  width: 400px;
+  float: left;
+}
+.wrapper #content .contentMain .center .left .lefttop {
+  width: 400px;
+  position: relative;
+}
+.wrapper #content .contentMain .center .left .lefttop .small {
+  width: 400px;
+  height: 400px;
+  border: 1px solid #dfdfdf;
+  position: relative;
+}
+.wrapper #content .contentMain .center .left .lefttop .small img {
+  width: 400px;
+  height: 400px;
+}
+.wrapper #content .contentMain .center .left .lefttop .small .mask {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 200px;
+  height: 200px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: none;
+}
+.wrapper #content .contentMain .center .left .lefttop .big {
+  width: 400px;
+  height: 400px;
+  border: 1px solid #ddd;
+  position: absolute;
+  left: 420px;
+  top: 0px;
+  overflow: hidden;
+  display: none;
+}
+.wrapper #content .contentMain .center .left .lefttop .big img {
+  width: 800px;
+  height: 800px;
+  position: absolute;
+}
 /*# sourceMappingURL=./test.css.map */

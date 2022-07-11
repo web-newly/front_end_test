@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +9,7 @@
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/test.css">
 </head>
+
 <body>
     <!-- 最外层的包裹元素 -->
     <div class="wrapper">
@@ -50,12 +52,57 @@
                     </div>
                     <!-- 右边的搜索框 -->
                     <div class="search">
-                        <input type="text" placeholder="请输入搜索内容"/>
-                        <input type="submit" value="搜索"/>
+                        <input type="text" placeholder="请输入搜索内容" />
+                        <input type="submit" value="搜索" />
                     </div>
                 </div>
             </div>
         </header>
+        <!-- 导航栏 -->
+        <div id="navwrap">
+            <!-- 版心元素 -->
+            <div class="navwrapmain">
+                <a href="javascript:;">全部商品分类</a>
+                <a href="javascript:;">服装城</a>
+                <a href="javascript:;">美妆馆</a>
+                <a href="javascript:;">尚优选超市</a>
+                <a href="javascript:;">全球购</a>
+                <a href="javascript:;">闪购</a>
+                <a href="javascript:;">团购</a>
+                <a href="javascript:;">有趣</a>
+                <a href="javascript:;">秒杀</a>
+            </div>
+        </div>
+        <!-- 中间内容部分 -->
+        <div id="content">
+            <!-- 版心元素 -->
+            <div class="contentMain">
+                <!-- 路径导航 -->
+                <div class="navpath"></div>
+                <!-- 中心部分 -->
+                <div class="center">
+                    <!-- 左边部分 -->
+                    <div class="left">
+                        <!-- 左上放大镜部分 -->
+                        <div class="lefttop">
+                            <!-- 小图 -->
+                            <div class="small">
+                                <img src="./images/b1.png" alt="iPhone">
+                                <!-- 遮罩层 -->
+                                <div class="mask"></div>
+                            </div>
+                            <!-- 大图 -->
+                            <div class="big">
+                                <img src="./images/b1.png" alt="iPhone">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
     </div>
 </body>
+<script src="./js/data.js"></script>
+<script src="./js/index.js"></script>
 </html>
