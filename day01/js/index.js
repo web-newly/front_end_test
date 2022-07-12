@@ -96,8 +96,8 @@ imagelistNode.onclick = function(event){
         smallImageNode.src = dataImagesSrc[imgindex].s;
         bigImageNode.src = dataImagesSrc[imgindex].b;
         imagelistNode.childNodes[imgindex].style.border = '1px solid orange';
-        if(flag){
-            imagelistNode.childNodes[flag].style = '1px solid #ccc';
+        if(flag && flag != imgindex){
+            imagelistNode.childNodes[flag].style.border = '';
         }
         flag = imgindex;
     }
