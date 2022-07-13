@@ -239,4 +239,172 @@
   width: 50px;
   height: 50px;
 }
+.wrapper #content .contentMain .center .right {
+  float: right;
+}
+.wrapper #content .contentMain .center .right .rightTop {
+  width: 700px;
+}
+.wrapper #content .contentMain .center .right .rightTop > h3 {
+  font-size: 14px;
+  line-height: 21px;
+  margin-top: 15px;
+  font-weight: bold;
+}
+.wrapper #content .contentMain .center .right .rightTop > p {
+  color: #e12228;
+  margin-top: 15px;
+}
+.wrapper #content .contentMain .center .right .rightTop .shopDetail {
+  margin-top: 10px;
+  line-height: 28px;
+  background-color: #fee9ec;
+  padding: 7px;
+}
+.wrapper #content .contentMain .center .right .rightTop .shopDetail .priceArea::after {
+  clear: both;
+  display: table;
+  content: '';
+}
+.wrapper #content .contentMain .center .right .rightTop .shopDetail .priceArea > span {
+  margin-right: 15px;
+  float: left;
+}
+.wrapper #content .contentMain .center .right .rightTop .shopDetail .priceArea .price {
+  color: #cc1122;
+  float: left;
+}
+.wrapper #content .contentMain .center .right .rightTop .shopDetail .priceArea .price i {
+  font-size: 16px;
+  float: left;
+}
+.wrapper #content .contentMain .center .right .rightTop .shopDetail .priceArea .price p {
+  font-size: 24px;
+  float: left;
+}
+.wrapper #content .contentMain .center .right .rightTop .shopDetail .priceArea .price span {
+  font-size: 12px;
+}
+.wrapper #content .contentMain .center .right .rightTop .shopDetail .priceArea .remark {
+  float: right;
+}
+.wrapper #content .contentMain .center .right .rightTop .shopDetail .promotion::after {
+  clear: both;
+  display: table;
+  content: '';
+}
+.wrapper #content .contentMain .center .right .rightTop .shopDetail .promotion > span {
+  margin-right: 15px;
+  float: left;
+}
+.wrapper #content .contentMain .center .right .rightTop .shopDetail .promotion .fixWidth {
+  float: left;
+  width: 520px;
+  line-height: 28px;
+}
+.wrapper #content .contentMain .center .right .rightTop .shopDetail .promotion .fixWidth p::after {
+  clear: both;
+  display: table;
+  content: '';
+}
+.wrapper #content .contentMain .center .right .rightTop .shopDetail .promotion .fixWidth p > span:first-child {
+  background-color: #c81623;
+  padding: 3px;
+  color: #fff;
+}
+.wrapper #content .contentMain .center .right .rightTop .shopDetail .promotion .fixWidth p > span:nth-child(2) {
+  color: #999;
+}
+.wrapper #content .contentMain .center .right .rightTop .supportArea {
+  border-bottom: 1px solid #ededed;
+  padding-bottom: 5px;
+}
+.wrapper #content .contentMain .center .right .rightTop .supportArea .support {
+  margin-top: 10px;
+  line-height: 28px;
+}
+.wrapper #content .contentMain .center .right .rightTop .supportArea .support::after {
+  clear: both;
+  display: table;
+  content: '';
+}
+.wrapper #content .contentMain .center .right .rightTop .supportArea .support span {
+  margin-right: 15px;
+  float: left;
+}
+.wrapper #content .contentMain .center .right .rightTop .supportArea .support p {
+  width: 520px;
+  color: #999;
+  float: left;
+}
+.wrapper #content .contentMain .center .right .rightTop .supportArea .delivery {
+  margin-top: 10px;
+  line-height: 28px;
+}
+.wrapper #content .contentMain .center .right .rightTop .supportArea .delivery::after {
+  clear: both;
+  display: table;
+  content: '';
+}
+.wrapper #content .contentMain .center .right .rightTop .supportArea .delivery span {
+  margin-right: 15px;
+  float: left;
+}
+.wrapper #content .contentMain .center .right .rightTop .supportArea .delivery p {
+  width: 520px;
+  color: #999;
+  float: left;
+}
+.wrapper #content .contentMain .center .right .rightBottom {
+  width: 700px;
+  margin-top: 10px;
+  line-height: 28px;
+}
+.wrapper #content .contentMain .center .right .rightBottom .choose::after {
+  clear: both;
+  display: table;
+  content: '';
+}
+.wrapper #content .contentMain .center .right .rightBottom .choose .mark {
+  height: 30px;
+  background-color: snow;
+  border: 1px solid #ddd;
+  padding: 0 20px;
+  margin-right: 20px;
+  line-height: 30px;
+  text-align: center;
+  float: left;
+}
+.wrapper #content .contentMain .center .right .rightBottom .choose .mark a {
+  margin-left: 20px;
+  color: red;
+}
+.wrapper #content .contentMain .center .right .rightBottom .choose .mark a:hover {
+  cursor: pointer;
+}
+.wrapper #content .contentMain .center .right .rightBottom .preferences dl {
+  margin: 13px 0;
+}
+.wrapper #content .contentMain .center .right .rightBottom .preferences dl::after {
+  clear: both;
+  display: table;
+  content: '';
+}
+.wrapper #content .contentMain .center .right .rightBottom .preferences dl dt {
+  margin-right: 15px;
+  float: left;
+}
+.wrapper #content .contentMain .center .right .rightBottom .preferences dl dd {
+  float: left;
+  margin-right: 5px;
+  color: #666;
+  line-height: 24px;
+  padding: 2px 14px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #eee #bbb #bbb #eee;
+}
+.wrapper #content .contentMain .center .right .rightBottom .preferences dl dd:first-of-type {
+  color: red;
+}
 /*# sourceMappingURL=./test.css.map */

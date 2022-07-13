@@ -141,3 +141,34 @@ for(let i=0;i<buttonArr.length;i++){
     }
 }
 
+// 获取参数选择的每个dl
+var preferencesDlNode = document.querySelectorAll('.wrapper #content .contentMain .center .right .rightBottom .preferences dl');
+var markNode = document.querySelectorAll('.choose .mark');
+var flagIndexdd = [1,1,1,1];
+// 给每个dl绑定点击事件
+for(let i=0;i<preferencesDlNode.length;i++){
+    for(let j=1;j<preferencesDlNode[i].children.length;j++){
+        preferencesDlNode[i].children[j].dataset.isClick = 'true';
+        preferencesDlNode[i].children[j].dataset.location = `${j}`;
+    }
+    preferencesDlNode[i].onclick = function(event){
+        let ddIndex = parseInt(event.target.dataset.location);
+        if(event.target.dataset.isClick){
+            event.target.style.color = "red";
+            markNode[i].children[0].innerText = this.children[ddIndex].innerText;
+            markNode[i].style.display = 'block';
+            if(flagIndexdd[i] != ddIndex){
+                preferencesDlNode[i].children[flagIndexdd[i]].style.color = '#666';
+                flagIndexdd[i] = ddIndex;
+            }
+        }
+    }
+}
+// 给mark下的a绑定点击事件
+for(let i=0;i<markNode.length;i++){
+    markNode[i].children[1].onclick = function(){
+        markNode[i].style.display = 'none';
+        preferencesDlNode[i].children[flagIndexdd[i]].style.color = '#666';
+    }
+}
+
