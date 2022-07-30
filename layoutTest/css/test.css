@@ -1,0 +1,411 @@
+.wrapper #header .headerTop {
+  background-color: #eaeaea;
+  height: 30px;
+  overflow: hidden;
+}
+.wrapper #header .headerTop .headerTopMain {
+  width: 1200px;
+  margin: 0 auto;
+  line-height: 30px;
+}
+.wrapper #header .headerTop .headerTopMain::after {
+  clear: both;
+  display: table;
+  content: '';
+}
+.wrapper #header .headerTop .headerTopMain .left {
+  float: left;
+}
+.wrapper #header .headerTop .headerTopMain .left h5 {
+  float: left;
+}
+.wrapper #header .headerTop .headerTopMain .left p {
+  float: left;
+  font-size: 0;
+}
+.wrapper #header .headerTop .headerTopMain .left p a {
+  color: #6E6A69;
+  text-decoration: none;
+  font-size: 13px;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+.wrapper #header .headerTop .headerTopMain .left p a:first-child {
+  border-right: 1px solid #b3aeae;
+}
+.wrapper #header .headerTop .headerTopMain .right {
+  float: right;
+  font-size: 0;
+}
+.wrapper #header .headerTop .headerTopMain .right a {
+  color: #6E6A69;
+  text-decoration: none;
+  font-size: 13px;
+  border-right: 1px solid #b3aeae;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.wrapper #header .headerTop .headerTopMain .right a:last-child {
+  border-right: none;
+  padding-right: 0;
+}
+.wrapper #header .headerTop .headerTopMain .right a:first-child {
+  padding-left: 0;
+}
+.wrapper #header .headerBottom .headerBottomMain {
+  width: 1200px;
+  margin: 0px auto;
+}
+.wrapper #header .headerBottom .headerBottomMain::after {
+  clear: both;
+  display: table;
+  content: '';
+}
+.wrapper #header .headerBottom .headerBottomMain .logo {
+  float: left;
+}
+.wrapper #header .headerBottom .headerBottomMain .logo a img {
+  width: 175px;
+  height: 56px;
+  margin: 25px 45px;
+}
+.wrapper #header .headerBottom .headerBottomMain .search {
+  float: right;
+  margin-top: 35px;
+}
+.wrapper #header .headerBottom .headerBottomMain .search input[type="text"] {
+  float: left;
+  box-sizing: border-box;
+  width: 490px;
+  height: 32px;
+  padding: 0 4px;
+  border: 3px solid rgba(234, 74, 54, 0.5);
+  outline: none;
+}
+.wrapper #header .headerBottom .headerBottomMain .search input[type="text"]::-webkit-input-placeholder {
+  color: yellowgreen;
+}
+.wrapper #header .headerBottom .headerBottomMain .search input[type="text"]:focus {
+  border-color: #ea4a36;
+}
+.wrapper #header .headerBottom .headerBottomMain .search input[type="submit"] {
+  float: left;
+  width: 68px;
+  height: 32px;
+  background-color: #ea4a36;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+.wrapper #navwrap {
+  border-bottom: 2px solid #e1251b;
+}
+.wrapper #navwrap .navwrapmain {
+  width: 1200px;
+  margin: 0 auto;
+  line-height: 50px;
+}
+.wrapper #navwrap .navwrapmain a {
+  margin: 0px 22px;
+  font-size: 16px;
+  color: #333;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+}
+.wrapper #navwrap .navwrapmain a:first-child {
+  width: 210px;
+  height: 50px;
+  background-color: #e1251b;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+}
+.wrapper #content {
+  border-top: 1px solid transparent;
+}
+.wrapper #content .contentMain {
+  width: 1200px;
+  margin: 15px auto 0px auto;
+}
+.wrapper #content .contentMain .navpath {
+  padding: 9px 15px 9px 0px;
+  font-size: 0px;
+}
+.wrapper #content .contentMain .navpath a {
+  font-size: 12px;
+  text-decoration: none;
+  color: #333;
+}
+.wrapper #content .contentMain .navpath i {
+  padding: 0px 5px;
+  font-size: 12px;
+}
+.wrapper #content .contentMain .center {
+  margin: 5px 0px 15px;
+}
+.wrapper #content .contentMain .center::after {
+  clear: both;
+  display: table;
+  content: '';
+}
+.wrapper #content .contentMain .center .left {
+  width: 400px;
+  float: left;
+}
+.wrapper #content .contentMain .center .left .lefttop {
+  width: 400px;
+  position: relative;
+}
+.wrapper #content .contentMain .center .left .lefttop .small {
+  width: 400px;
+  height: 400px;
+  border: 1px solid #dfdfdf;
+  position: relative;
+}
+.wrapper #content .contentMain .center .left .lefttop .small img {
+  width: 400px;
+  height: 400px;
+}
+.wrapper #content .contentMain .center .left .lefttop .small .mask {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 200px;
+  height: 200px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: none;
+}
+.wrapper #content .contentMain .center .left .lefttop .big {
+  width: 400px;
+  height: 400px;
+  border: 1px solid #ddd;
+  position: absolute;
+  left: 420px;
+  top: 0px;
+  overflow: hidden;
+  display: none;
+}
+.wrapper #content .contentMain .center .left .lefttop .big img {
+  width: 800px;
+  height: 800px;
+  position: absolute;
+}
+.wrapper #content .contentMain .center .left .leftbottom {
+  width: 400px;
+  margin-top: 5px;
+}
+.wrapper #content .contentMain .center .left .leftbottom a {
+  width: 10px;
+  height: 54px;
+  border: 1px solid #ccc;
+  background-color: #ebebeb;
+  text-align: center;
+  line-height: 54px;
+  text-decoration: none;
+  color: black;
+  float: left;
+  transition: all 1s ease-in-out;
+}
+.wrapper #content .contentMain .center .left .leftbottom a:first-child {
+  margin-right: 4px;
+  background-color: #9b9b9b;
+}
+.wrapper #content .contentMain .center .left .leftbottom .imagelist {
+  width: 372px;
+  height: 56px;
+  float: left;
+  overflow: hidden;
+}
+.wrapper #content .contentMain .center .left .leftbottom .imagelist ul {
+  font-size: 0px;
+  white-space: nowrap;
+  transition: margin-left 1s ease-in-out;
+}
+.wrapper #content .contentMain .center .left .leftbottom .imagelist ul li {
+  width: 50px;
+  height: 50px;
+  padding: 2px;
+  margin-right: 20px;
+  border: 1px solid #ccc;
+  display: inline-block;
+}
+.wrapper #content .contentMain .center .left .leftbottom .imagelist ul li:hover {
+  border: 1px solid skyblue;
+}
+.wrapper #content .contentMain .center .left .leftbottom .imagelist ul li img {
+  width: 50px;
+  height: 50px;
+}
+.wrapper #content .contentMain .center .right {
+  float: right;
+}
+.wrapper #content .contentMain .center .right .rightTop {
+  width: 700px;
+}
+.wrapper #content .contentMain .center .right .rightTop > h3 {
+  font-size: 14px;
+  line-height: 21px;
+  margin-top: 15px;
+  font-weight: bold;
+}
+.wrapper #content .contentMain .center .right .rightTop > p {
+  color: #e12228;
+  margin-top: 15px;
+}
+.wrapper #content .contentMain .center .right .rightTop .shopDetail {
+  margin-top: 10px;
+  line-height: 28px;
+  background-color: #fee9ec;
+  padding: 7px;
+}
+.wrapper #content .contentMain .center .right .rightTop .shopDetail .priceArea::after {
+  clear: both;
+  display: table;
+  content: '';
+}
+.wrapper #content .contentMain .center .right .rightTop .shopDetail .priceArea > span {
+  margin-right: 15px;
+  float: left;
+}
+.wrapper #content .contentMain .center .right .rightTop .shopDetail .priceArea .price {
+  color: #cc1122;
+  float: left;
+}
+.wrapper #content .contentMain .center .right .rightTop .shopDetail .priceArea .price i {
+  font-size: 16px;
+  float: left;
+}
+.wrapper #content .contentMain .center .right .rightTop .shopDetail .priceArea .price p {
+  font-size: 24px;
+  float: left;
+}
+.wrapper #content .contentMain .center .right .rightTop .shopDetail .priceArea .price span {
+  font-size: 12px;
+}
+.wrapper #content .contentMain .center .right .rightTop .shopDetail .priceArea .remark {
+  float: right;
+}
+.wrapper #content .contentMain .center .right .rightTop .shopDetail .promotion::after {
+  clear: both;
+  display: table;
+  content: '';
+}
+.wrapper #content .contentMain .center .right .rightTop .shopDetail .promotion > span {
+  margin-right: 15px;
+  float: left;
+}
+.wrapper #content .contentMain .center .right .rightTop .shopDetail .promotion .fixWidth {
+  float: left;
+  width: 520px;
+  line-height: 28px;
+}
+.wrapper #content .contentMain .center .right .rightTop .shopDetail .promotion .fixWidth p::after {
+  clear: both;
+  display: table;
+  content: '';
+}
+.wrapper #content .contentMain .center .right .rightTop .shopDetail .promotion .fixWidth p > span:first-child {
+  background-color: #c81623;
+  padding: 3px;
+  color: #fff;
+}
+.wrapper #content .contentMain .center .right .rightTop .shopDetail .promotion .fixWidth p > span:nth-child(2) {
+  color: #999;
+}
+.wrapper #content .contentMain .center .right .rightTop .supportArea {
+  border-bottom: 1px solid #ededed;
+  padding-bottom: 5px;
+}
+.wrapper #content .contentMain .center .right .rightTop .supportArea .support {
+  margin-top: 10px;
+  line-height: 28px;
+}
+.wrapper #content .contentMain .center .right .rightTop .supportArea .support::after {
+  clear: both;
+  display: table;
+  content: '';
+}
+.wrapper #content .contentMain .center .right .rightTop .supportArea .support span {
+  margin-right: 15px;
+  float: left;
+}
+.wrapper #content .contentMain .center .right .rightTop .supportArea .support p {
+  width: 520px;
+  color: #999;
+  float: left;
+}
+.wrapper #content .contentMain .center .right .rightTop .supportArea .delivery {
+  margin-top: 10px;
+  line-height: 28px;
+}
+.wrapper #content .contentMain .center .right .rightTop .supportArea .delivery::after {
+  clear: both;
+  display: table;
+  content: '';
+}
+.wrapper #content .contentMain .center .right .rightTop .supportArea .delivery span {
+  margin-right: 15px;
+  float: left;
+}
+.wrapper #content .contentMain .center .right .rightTop .supportArea .delivery p {
+  width: 520px;
+  color: #999;
+  float: left;
+}
+.wrapper #content .contentMain .center .right .rightBottom {
+  width: 700px;
+  margin-top: 10px;
+  line-height: 28px;
+}
+.wrapper #content .contentMain .center .right .rightBottom .choose::after {
+  clear: both;
+  display: table;
+  content: '';
+}
+.wrapper #content .contentMain .center .right .rightBottom .choose .mark {
+  height: 30px;
+  background-color: snow;
+  border: 1px solid #ddd;
+  padding: 0 20px;
+  margin-right: 20px;
+  line-height: 30px;
+  text-align: center;
+  float: left;
+}
+.wrapper #content .contentMain .center .right .rightBottom .choose .mark a {
+  margin-left: 20px;
+  color: red;
+}
+.wrapper #content .contentMain .center .right .rightBottom .choose .mark a:hover {
+  cursor: pointer;
+}
+.wrapper #content .contentMain .center .right .rightBottom .preferences dl {
+  margin: 13px 0;
+}
+.wrapper #content .contentMain .center .right .rightBottom .preferences dl::after {
+  clear: both;
+  display: table;
+  content: '';
+}
+.wrapper #content .contentMain .center .right .rightBottom .preferences dl dt {
+  margin-right: 15px;
+  float: left;
+}
+.wrapper #content .contentMain .center .right .rightBottom .preferences dl dd {
+  cursor: pointer;
+  float: left;
+  margin-right: 5px;
+  color: #666;
+  line-height: 24px;
+  padding: 2px 14px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #eee #bbb #bbb #eee;
+}
+.wrapper #content .contentMain .center .right .rightBottom .preferences dl dd:first-of-type {
+  color: red;
+}
+/*# sourceMappingURL=./test.css.map */
